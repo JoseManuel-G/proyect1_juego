@@ -16,6 +16,7 @@ for x in range(1, 51):
         print('Demasiado bajo.')
     if x == numero:
         print('ganaste')
+        break
         oportunidades += 1
     if oportunidades == 6:
         break
